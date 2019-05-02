@@ -1,1 +1,36 @@
 // Navigation Styles here
+.navbar{
+    header{
+        margin: 20px;
+        display: flex;
+        justify-content: space-between;
+
+        @media @mobile{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+    header h1{
+        font-size: 4.5rem;
+        padding: 5px;
+    }
+    header nav{
+        display: flex-inline;
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 1.5rem;
+            padding: 0px 15px;
+            align-items: center;
+
+
+            @media @mobile{
+                padding: 0px 25px;
+            }
+        }
+    } 
+    hr{
+        border: 1px dashed grey;
+    }
+}
